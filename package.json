@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "jest": "^24.9.0",
-    "nodemon": "^1.19.4"
+    "jest": "^24.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon ./src/js/index.js"
   },
   "keywords": [],
   "author": "",
